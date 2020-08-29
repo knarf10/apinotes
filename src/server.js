@@ -13,5 +13,6 @@ app.set('port', process.env.PORT || 4000);
 
 // routes
 app.use(require('./controllers/Note_Controller'));
+app.use(require('./controllers/User_controller'));
 
 module.exports = app;
